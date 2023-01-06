@@ -44,7 +44,7 @@
                             <span class="menu__text">Каталог</span>
                         </button>
                         <nav class="header__nav">
-                            <a href="#" class="header__link">О продукте</a>
+                            <a href="#" class="header__link header__link--color">О продукте</a>
                             <a href="#" class="header__link">Отзывы</a>
                             <a href="#" class="header__link">Доставка и оплата</a>
                             <a href="#" class="header__link">Контакты</a>
@@ -60,15 +60,13 @@
                             <div class="header__gps">
                                 <img src="./img/header/gps.svg" alt="">
                             </div>
-                            <input class="header__country" type="text" list="country">
-                            <datalist id="country">
-                                <option value="">Москва</option>
-                                <option value="">Белгород</option>
-                                <option value="">Тюмень</option>
-                            </datalist>
-                            <div class="header__arrow-select-black">
-                                <img src="./img/header/arrow-select-black.svg" alt="">
-                            </div>
+                            <label class="header__country" type="text" list="country">
+                            <select id="country">
+                                <option value="Москва">Москва</option>
+                                <option value="Белгород">Белгород</option>
+                                <option value="Тюмень">Тюмень</option>
+                            </select>
+                            
                         </div>
                         <div class="header-basket header-basket__wrap">
                             <div class="header-basket__img">
