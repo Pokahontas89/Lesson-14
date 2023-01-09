@@ -1,9 +1,8 @@
 .header__link {
-  font-weight: 500;
-  font-size: 1.6rem;
-  line-height: 140%;
+  @include font(500, 1.6rem, 140%);
+  
+  &:not(:last-child) {
+    margin-right: 3.4rem;
+  }
 }
 
-.header__link:not(:last-child) {
-  margin-right: 3.4rem;
-}

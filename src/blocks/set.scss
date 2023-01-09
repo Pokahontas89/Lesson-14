@@ -21,7 +21,7 @@ body {
   text-rendering: auto;
   margin: 0;
   padding: 0;
-  color: #2B3350; // цвет по умолчанию текста по сайту
+  color: $color-text-black; // цвет по умолчанию текста по сайту
   background-color: #FFFFFF; // цвет фона сайта по умолчанию
 }
 
@@ -33,6 +33,13 @@ body {
 a,
 a:hover {
   text-decoration: none;
+}
+
+input,
+button {
+  border: none;
+  outline: none;
+  cursor: pointer;
 }
 
 img {

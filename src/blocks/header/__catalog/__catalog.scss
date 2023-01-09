@@ -1,6 +1,5 @@
 .header__catalog {
-  display: flex;
-  align-items: center;
+  @include vercen;
   margin-right: 4.25rem;
-  cursor: pointer;
 }
+
