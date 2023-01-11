@@ -2,6 +2,12 @@
   @include font(500, 1.6rem, 140%);
   padding: 1.35rem 2.85rem 1.55rem;
   border-radius: 8px;
+
+  &:hover {
+    position: relative;
+    border: .1rem solid #2b3350;
+    background: #FFFFFF;
+  }
 }
 
 @media (max-width: 48em) {

@@ -1,5 +1,9 @@
 .header__catalog {
   @include vercen;
   margin-right: 4.25rem;
+
+  &:hover {
+    opacity: 0.8;
+  }
 }
 
