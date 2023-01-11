@@ -1,5 +1,9 @@
 @media (max-width: 48em) {
     .header__wrap {
-      display: flex;
+      @include maxwidth;
+
     }
+
+
   }
+
