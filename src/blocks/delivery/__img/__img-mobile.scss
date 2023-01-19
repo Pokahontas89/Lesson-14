@@ -1,0 +1,11 @@
+.delivery__img-mobile {
+  display: none;
+}
+
+@media (max-width: 48em) {
+  .delivery__img-mobile {
+    display: block;
+    margin-bottom: 4.3rem;
+    align-items: center;
+  }
+}

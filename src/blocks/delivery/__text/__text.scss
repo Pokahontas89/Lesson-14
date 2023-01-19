@@ -1,0 +1,12 @@
+.delivery__text {
+    @include font(300, 2.2rem, 150%);
+    text-align: center;
+    padding-bottom: 1.3rem;
+}
+
+@media (max-width: 48em) {
+    .delivery__text {
+      padding-bottom: 0.5rem;
+      @include font(300, 1.4rem, 150%);
+    }
+  }

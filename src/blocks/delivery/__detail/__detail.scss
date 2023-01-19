@@ -1,0 +1,12 @@
+.delivery__detail {
+    @include font(400, 1.5rem, 150%);
+    padding-bottom: .2rem;
+}
+
+@media (max-width: 48em) {
+    .delivery__detail:not(:last-child) {
+      margin-bottom: 2.2rem;
+      @include font(400, 1.3rem, 150%);
+      color: aqua;
+    }
+  }
