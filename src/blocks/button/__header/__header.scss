@@ -1,6 +1,7 @@
 .button__header {
   @include font(500, 1.6rem, 140%);
-  padding: 1.35rem 2.85rem 1.55rem;
+  padding: 1.35rem 2.9rem 1.55rem;
+  letter-spacing: .07rem;
   border-radius: 8px;
   border: .1rem solid #FFFFFF;
   

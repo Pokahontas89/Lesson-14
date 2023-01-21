@@ -1,10 +1,11 @@
 @media (max-width: 48em) {
   .delivery__img-point {
-      width: 0.4rem;
-      height: 0.4rem;
+      width: 1rem;
+      height: 1rem;
+      border-radius: 1rem;
   }
 
   .delivery__img-point:not(:last-child) {
-    margin-right: .7rem;
+    margin-right: 1.6rem;
   }
 }

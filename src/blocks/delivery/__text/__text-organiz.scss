@@ -1,3 +1,12 @@
 .delivery__text-organiz {
     max-width: 35rem;
+    padding-right: 3.1rem;
+    padding-top: 0.2016rem;
 }
+
+@media (max-width: 48em) {
+    .delivery__text-organiz {
+      padding: 0;
+      max-width: 46rem;
+    }
+  }

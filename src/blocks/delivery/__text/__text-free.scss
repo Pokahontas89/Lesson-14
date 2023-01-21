@@ -1,3 +1,12 @@
 .delivery__text-free {
     max-width: 37rem;
+    padding-left: 1rem;
 }
+
+@media (max-width: 48em) {
+    .delivery__text-free {
+      padding: 0;
+      max-width: 55rem;
+      text-align: start;
+    }
+  }

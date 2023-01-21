@@ -1,15 +1,15 @@
 .delivery__wrap {
     @include maxwidth;
-    margin-top: 20.4rem;
-    margin-bottom: 9.4rem;
+    margin-top: 9.9rem;
+    margin-bottom: 9.2rem;
 }
 
 @media (max-width: 48em) {
     .delivery__wrap {
       flex-direction: column;
-      margin-top: 1.3rem;
-      margin-bottom: 6.3rem;
-
+      margin-top: 3rem;
+      margin-bottom: 12rem;
       text-align: flex-end;
+
     }
   }

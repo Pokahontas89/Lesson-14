@@ -1,8 +1,21 @@
 .delivery__img-cart {
-    width: 7rem;
-    height: 6.8rem;
+    width: 8.8rem;
+    height: 8.8rem;
+    position: relative;
+    bottom: 0.1rem;
+    right: 0.1rem;
 }
 
+
+@media (max-width: 48em) {
+    .delivery__img-cart {
+        width: 11rem;
+        height: 11rem;
+        position: relative;
+        top: 0.7rem;
+        left: 0.7rem;
+    }
+  }
 
 
 
