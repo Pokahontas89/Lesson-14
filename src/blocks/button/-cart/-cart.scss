@@ -1,0 +1,13 @@
+.button-cart {
+    @include font(600, 1.6rem, 140%);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-top: 2rem;
+    padding: 1.85rem 3.8rem 2.25rem;
+    display: none;
+
+    &:hover {
+        opacity: 0.8;
+    }
+}

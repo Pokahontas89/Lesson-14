@@ -1,4 +1,4 @@
-.button__header {
+.button--style {
   @include font(500, 1.6rem, 140%);
   padding: 1.35rem 2.9rem 1.55rem;
   letter-spacing: .07rem;
@@ -13,7 +13,7 @@
 }
 
 @media (max-width: 48em) {
-  .button__header {
+  .button--style {
     display: none;
   }
 }

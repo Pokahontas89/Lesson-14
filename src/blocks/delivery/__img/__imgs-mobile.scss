@@ -1,9 +1,9 @@
-.delivery__img-mobile {
+.delivery__imgs-mobile {
   display: none;
 }
 
 @media (max-width: 48em) {
-  .delivery__img-mobile {
+  .delivery__imgs-mobile {
     display: block;
     margin-bottom: 10rem;
     justify-content: center;

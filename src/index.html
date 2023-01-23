@@ -15,26 +15,27 @@
                     <div class="header__burger">
                         <img src="./img/header/burger-mobile.svg" alt="">
                     </div>
-                    <a href="#" class="header-logo header-logo__wrap">
-                        <div class="header-logo__img">
-                            <img src="./img/header/logo.png" alt="">
+                    <a href="#" class="header-logo">
+                        <div class="header-logo__wrap">
+                            <div class="header-logo__img">
+                                <img src="./img/header/logo.png" alt="">
+                            </div>
+                            <div class="header-logo__text header-logo__text--color">Кресла Samurai</div>
                         </div>
-                        <div class="header-logo__text header-logo__text--color">Кресла Samurai</div>
                     </a>
                     <div class="header__find">
                         <input class="header__input header__input--color" type="text" placeholder="Название модели или артикул">
                     </div>
-                    <div class="header-tel header-tel__wrap">
-                        <div class="header-tel__img">
-                            <img src="./img/header/phone.svg" alt="">
+                    <div class="header-tel">
+                        <div class="header-tel__wrap">
+                            <div class="header-tel__img">
+                                <img src="./img/header/phone.svg" alt="">
+                            </div>
+                            <a href="tel:+74952210675" class="header-tel__text header-tel__text--color">+7 495 221-06-75</a>
                         </div>
-                        <a href="tel:+74952210675" class="header-tel__text header-tel__text--color">+7 495 221-06-75</a>
-
                     </div>
-                    <button type="button" class="button button__header button__header--color">Заказать звонок</button>  
+                    <button type="button" class="button button--style button--color">Заказать звонок</button>  
                 </div>
-
-
 
                 <div class="header__menu">
                     <div class="header__navigation">
@@ -49,17 +50,13 @@
                             <a href="#" class="header__link header__link--color">Контакты</a>
                         </nav>
                     </div>
-
-
-
-
-                    
+                  
                     <div class="header__shop">
                         <div class="header__region">
                             <div class="header__gps">
                                 <img src="./img/header/gps.svg" alt="">
                             </div>
-                            <label type="text" list="country">
+                            <label for="country"></label>
                             <select class="header__country" id="country">
                                 <option value="Москва">Москва</option>
                                 <option value="Белгород">Белгород</option>
@@ -67,12 +64,14 @@
                             </select>
                             
                         </div>
-                        <div class="header-basket header-basket__wrap">
-                            <div class="header-basket__img">
-                                <img src="./img/header/shopping.svg" alt="">
+                        <div class="header-basket">
+                            <div class="header-basket__wrap">
+                                <div class="header-basket__img">
+                                    <img src="./img/header/shopping.svg" alt="">
+                                </div>
+                                <span class="header-basket__text">Моя корзина</span>
+                                <div class="header-basket__count header-basket__count--size">+1</div>
                             </div>
-                            <span class="header-basket__text">Моя корзина</span>
-                            <div class="header-basket__count header-basket__count--size">+1</div>
                         </div>
                     </div>
                     
@@ -82,14 +81,11 @@
 
     </header>
 
-
-
-
     <section class="delivery">
         <div class="container">
             <div class="delivery__wrap">
 
-                <div class="delivery__img-mobile">
+                <div class="delivery__imgs-mobile">
                     <img class="delivery__img-point delivery__img-point-gray" src="/img/delivery/img_point-gray-mobile.svg" alt="">
                     <img class="delivery__img-point delivery__img-point-dark" src="/img/delivery/img_point-dark-mobile.svg" alt="">
                     <img class="delivery__img-point delivery__img-point-gray" src="/img/delivery/img_point-gray-mobile.svg" alt="">
@@ -132,24 +128,23 @@
         </div>
     </section>
 
-
-
-
-
-
     <main class="main">
         <section class="catalog">
             <div class="container">
-                <h2 class="title title__document">Каталог кресел</h2>
+                <div class="title">
+                    <h2 class="title__document">Каталог кресел</h2>
+                </div>
                 <div class="catalog__wrap">
-                    <a href="#" class="cart cart__wrap">
-                        <div class="cart__img">
-                            <img src="/img/cart/cart.png" alt="">
+                    <a href="#" class="cart">
+                        <div class="cart__wrap">
+                            <div class="cart__img">
+                                <img src="/img/cart/cart.png" alt="">
+                            </div>
+                            <div class="cart__title cart__title--color">Samurai KL-1.04 Темно-коричневый</div>
+                            <div class="cart__coin-new cart__coin-new--color">23 000 ₽</div>
+                            <div class="cart__coin-old cart__coin-old--color">27 000 ₽</div>
+                            <div class="button-cart button-cart--color">Добавить в корзину</div>
                         </div>
-                        <div class="cart__title cart__title--color">Samurai KL-1.04 Темно-коричневый</div>
-                        <div class="cart__coin-new">23 000 ₽</div>
-                        <div class="cart__coin-old">27 000 ₽</div>
-                        <button type="submit" class="button__cart button__cart--color">Добавить в корзину</button>
                     </a>
                 </div>            
             </div>
